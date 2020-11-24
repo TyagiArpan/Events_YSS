@@ -1,6 +1,8 @@
 #cards_landscape_wrap-2{
   text-align: center;
-  background: #F7F7F7;
+  background-image: url("bgpic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #cards_landscape_wrap-2 .container{
   padding-top: 80px; 
@@ -42,7 +44,7 @@
   padding: 30px 18px;
 }
 #cards_landscape_wrap-2 .card-flyer{
-  background: #FFFFFF;
+  background: #d0d0d0;
   margin-top: 50px;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -52,7 +54,7 @@
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
 }
 #cards_landscape_wrap-2 .card-flyer:hover{
-  background: #fff;
+  background: #dcdcdc;
   box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -68,6 +70,7 @@
   font-size: 14px;
   letter-spacing: 1px;
   color: #000000;
+  font-family: 'Love Ya Like A Sister', sans-serif;
 }
 #cards_landscape_wrap-2 .card-flyer .text-box h6{
   margin-top: 0px;
@@ -75,19 +78,44 @@
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'Roboto Black', sans-serif;
   letter-spacing: 1px;
-  color: #00acc1;
+  color: #000000;
+  text-decoration-line: underline;
+  font-family: 'Love Ya Like A Sister', sans-serif;
 }
 
 .jumbotron{
   margin-bottom: 0;
+  background: #101010;
+  text-align: center;
 }
 
 .btn{
   margin: 12px 0px;
+  font-family: 'Love Ya Like A Sister', sans-serif;
 }
 
 #footer{
   padding: 2rem 1rem;
 }
+
+.bg-font{
+  font-family: 'Love Ya Like A Sister', sans-serif;
+  color: yellow;
+}
+
+.btn-lg{
+  color: yellow;
+  border-color: yellow;
+}
+
+.btn-lg:hover{
+  color: black;
+  background-color: yellow; 
+}
+
+.navbar-brand{
+  font-family: 'Love Ya Like A Sister', sans-serif;
+}
+
+
